@@ -27,7 +27,7 @@ def web_mars_post():
 
 @app.route("/mars", methods=["GET"])
 def web_mars_get():
-    return jsonify({'msg': 'GET 연결 완료!'})
+    return jsonify({'msg': 'msg hereee'})
 
 if __name__ == '__main__':
     app.run('0.0.0.0', port=5000, debug=True)
